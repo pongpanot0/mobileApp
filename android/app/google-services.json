@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327402673821",
+    "project_id": "notifications-f8172",
+    "storage_bucket": "notifications-f8172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327402673821:android:63e9c9e789a0077c80e674",
+        "android_client_info": {
+          "package_name": "com.example.lawyerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327402673821-hccv8sp97lcbsfa8mrl2eprk9e5ccgr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALC6t5LfyYnNzBaqLKYTP8duZ7MkLoeng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327402673821-hccv8sp97lcbsfa8mrl2eprk9e5ccgr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
