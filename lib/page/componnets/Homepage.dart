@@ -56,7 +56,7 @@ class _HomepageState extends State<Homepage> {
           await apiService.getTransactions(); // Call your API function
       int notifyCount = NotifyArray.where((notification) =>
           notification['transaction_notification_isread'] == 0).length;
-    
+
       return notifyCount;
     } catch (e) {
       // Handle errors
@@ -88,7 +88,7 @@ class _HomepageState extends State<Homepage> {
           case_timebar_incoming: data['case_timebar_incoming'] ?? '',
         );
       }).toList();
-  _loadCurrentTheme();
+      _loadCurrentTheme();
       return users; // Return the list of User objects
     } catch (e) {
       // Handle errors
@@ -317,7 +317,7 @@ class _HomepageState extends State<Homepage> {
         });
       },
       style: ElevatedButton.styleFrom(
-        primary: _currentSegmentIndex == index
+        backgroundColor: _currentSegmentIndex == index
             ? Colors.blue // Active color
             : Colors.grey, // Inactive color
       ),
